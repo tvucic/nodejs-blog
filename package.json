@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_blog",
+  "version": "1.0.0",
+  "description": "Project nodejs-blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvucic/nodejs-blog.git"
+  },
+  "author": "Tomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tvucic/nodejs-blog/issues"
+  },
+  "homepage": "https://github.com/tvucic/nodejs-blog#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.7"
+  }
+}
