@@ -1,4 +1,5 @@
 const express = require('express');
+const morgan = require('morgan');
 
 // creating an instance of express app
 const app = express();
@@ -8,6 +9,9 @@ app.set('view engine', 'ejs');
 
 // listen for requests
 app.listen(3000);
+
+// Logging informtions with morgan
+app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
     const blogs = [
